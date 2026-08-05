@@ -48,9 +48,9 @@ if st.button("Predict Diabeties"):
 
     # Display Result
     if prediction[0] == 0:
-        st.error("The person is Diabetic.")
-    else: 
         st.success("The person is not Diabetic.")
+    else: 
+        st.error("The person is Diabetic.")
 
 
 # In[ ]:
