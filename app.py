@@ -22,11 +22,11 @@ st.write("Enter the Features Value Below for Diabetes Prediction")
 # User Inputs 
 pregnancies = st.number_input('Pregnancies', min_value=0.0, format="%.2f")
 glucose = st.number_input('Glucose', min_value=0.0, format="%.2f")
-bloodpressure = st.number_input('Blood Pressure', min_value=0.0, format="%.2f")
 BMI = st.number_input('BMI', min_value=0.0, format="%.2f")
 age = st.number_input('Age', min_value=0.0, format= "%.2f")
 diabetespedigreefunction = st.number_input("Diabetes Pedigree Function", min_value=0.0, format="%.4f")
 
+# bloodpressure = st.number_input('Blood Pressure', min_value=0.0, format="%.2f")
 # skinthickness = st.number_input("Skin Thickness", min_value=0.0, format="%.2f")
 # insulin = st.number_input("Insulin", min_value=0.0, format="%.4f")
 
