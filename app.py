@@ -47,7 +47,7 @@ if st.button("Predict Diabeties"):
     prediction = model.predict(input_scaled)
 
     # Display Result
-    if prediction[0] == 0:
+    if prediction[0] == 1:
         st.success("The person is not Diabetic.")
     else: 
         st.error("The person is Diabetic.")
