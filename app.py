@@ -41,7 +41,7 @@ if st.button("Predict Diabeties"):
     ]])
 
     # scaled the input
-    input_scaled = scaler.transform(input_data)
+    input_scaled = scaler.fit_transform(input_data)
 
     # predict the model 
     prediction = model.predict(input_scaled)
